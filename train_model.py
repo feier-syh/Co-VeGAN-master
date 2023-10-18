@@ -1,4 +1,5 @@
-from keras.utils import multi_gpu_model 
+import torch
+from keras.utils import multi_gpu_model
 import numpy as np
 import tensorflow as tf
 import pickle
